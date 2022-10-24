@@ -1,0 +1,23 @@
+.content{
+    border: 1px solid rgba(245, 245, 245, 0.573);
+    width: 80%;
+    margin: auto;
+    background: #fff;
+}
+
+.banner1{
+    margin-left: 0%;
+
+}
+.banner2{
+    margin-left: 35%;
+    ;
+}
+.banner3{
+    margin-left: 0%;
+
+}
+.banner4{
+    margin-left: 35%;
+    ;
+}
