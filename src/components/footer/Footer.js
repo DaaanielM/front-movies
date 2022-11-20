@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../../styles/Footer.module.css';
+import {
+	FaFacebook,
+	FaInstagramSquare,
+	FaWhatsappSquare,
+} from 'react-icons/fa';
+
 function Footer() {
 	return (
 		<footer className={styles.footerDistributed}>
@@ -45,13 +51,13 @@ function Footer() {
 				</p>
 				<div className={styles.footerIcons}>
 					<a href='#'>
-						<i className='fa fa-facebook' />
+						<FaFacebook />
 					</a>
 					<a href='#'>
-						<i className='fa fa-facebook' />
+						<FaInstagramSquare />
 					</a>
 					<a href='#'>
-						<i className='fa fa-facebook' />
+						<FaWhatsappSquare />
 					</a>
 				</div>
 			</div>

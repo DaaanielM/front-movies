@@ -41,7 +41,7 @@ function Nav() {
 						</Link>
 					</li> */}
 					<li className={styles.logoli}>
-						<Link to={'/Promociones'} className={styles.logolink}>
+						<Link to={'/promociones'} className={styles.logolink}>
 							<FontAwesomeIcon
 								icon={faDollarSign}
 								className={styles.fontIcon}
@@ -51,12 +51,12 @@ function Nav() {
 					</li>
 
 					<li className={styles.logoli}>
-						<Link to={'/Login'} className={styles.logolink}>
+						<Link to={'/admin'} className={styles.logolink}>
 							<FontAwesomeIcon
 								icon={faSignInAlt}
 								className={styles.fontIcon}
 							/>
-							Iniciar Sesión
+							Admin
 						</Link>
 					</li>
 				</ul>

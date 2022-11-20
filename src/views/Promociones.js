@@ -1,9 +1,12 @@
 import React from 'react';
 import styles from '../styles/Container.module.css';
 import Banners from '../components/promociones/Banners';
+import Nav from '../components/menu/Nav';
+import Footer from '../components/footer/Footer';
 function Promociones() {
 	return (
 		<>
+			<Nav />
 			<div className={styles.content}>
 				<div className={styles.main}>
 					<h1 className={styles.text}>
@@ -13,6 +16,7 @@ function Promociones() {
 					<Banners />
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 }

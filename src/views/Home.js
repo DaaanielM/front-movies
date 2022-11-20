@@ -1,7 +1,7 @@
 import React from 'react';
 import GridCartelera from '../components/cartelera/GridCartelera';
 
-import Search from '../components/search/Search';
+// import Search from '../components/search/Search';
 import styles from '../styles/Container.module.css';
 function Home() {
 	return (
